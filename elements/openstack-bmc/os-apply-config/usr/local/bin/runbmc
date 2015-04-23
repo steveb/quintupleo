@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sudo /opt/stack/tripleo-scripts/openstackbmc --os-user {{bmc.user}} --os-password {{bmc.password}} --os-tenant {{bmc.tenant}} --os-auth-url {{bmc.auth_url}} --instance {{bmc.instance}}
